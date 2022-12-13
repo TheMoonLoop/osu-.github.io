@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Torus Notched Regular";
+    src: url("torus.woff2") format("woff2");
+}
+
+body{
+    font-family: "Torus Notched Regular"
+}
+
+.form{
+    position: absolute;
+    top: 10px; left: 400px;
+    width: 500px;
+    height: 600px;
+    padding-left: 20px;
+    padding-right: 5px;
+    background-color: pink;
+    border-radius: 50px;
+    margin: auto;
+}
+
+#video_background {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+#video_pattern {
+    background:#fff;
+    position: fixed;
+    opacity: 5;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+.landing-hero__slogan-main{
+    font-family: "Torus Notched Regular";
+    font-weight: 100;
+    position: relative;
+    text-shadow:0 1px 3px;
+    rgba: (0,0,0,.75);
+    margin:0 0 5px;
+    padding:0;
+    color:#fff;
+    font-size:24px
+}
+
+.landing-hero__slogan-sub{
+    font-family: "Torus Notched Regular";
+    font-weight: 100;
+    position: relative;
+    text-shadow:0 1px 3px;
+    rgba: (0,0,0,.75);
+    margin:0;
+    padding:0;
+    color:#f9c;
+    font-size:16px
+}
+
+label{
+    margin: 11px 20px 0 0;
+    font-size: 16px;
+    color: black;
+}
+
+input[type=text],[type="email"]{
+    width: 470px;
+    height: 35;
+    font:14px normal normal uppercase helvatica, arial, serif;
+}
+
+textarea{
+    width: 470px;
+    height: 110px;
+    font:14px normal normal uppercase helvatica, arial, serif;
+}
+
+input[type=submit]{
+    position:relative;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 60px;
+    border:0px;
+    background-color: #0097ff;
+    font:14px normal normal uppercase helvatica, arial, serif;
+}
+
+input[type=reset]{
+    position:relative;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 60px;
+    border:0px;
+    background-color: #d21306;
+    font:14px normal normal uppercase helvatica, arial, serif;
+}
+
+input[type=button]{
+    position:absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 165px;
+    border:0px;
+    background-color: #99FF99;
+    font:14px normal normal uppercase helvatica, arial, serif;
+}  

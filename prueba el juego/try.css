@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Torus";
+    src: url("torus.woff2") format("woff2");
+}
+
+body{
+  font-family: Torus;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fff;
+  background-color: #fff
+}
+
+h1,h2{
+	font-weight: 400
+}
+
+*{
+box-sizing: border-box
+}
+
+.landing-nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 20px 20px;
+	font-size: 12px
+}
+
+.landing-nav__section{
+  margin: 0 -12px;
+  display: flex
+}
+
+.landing-nav__link{
+  font-family: "Torus";
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 12px;
+  color: #fff;
+  text-transform: lowercase;
+  white-space: nowrap
+}
+
+.landing-nav__link{
+  text-decoration: none
+}
+
+.landing-nav__link:focus,.landing-nav__link:hover{
+  color: #f6a
+}
+
+.osu-layout--body{
+  background-color: hsl(var(--hsl-b6))
+}
+
+.osu-layout__row{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px
+}
+
+.osu-page__info{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px
+}
+
+.about{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.about-info{
+  position: relative;
+  font-size: 15px;
+}
+
+img{
+  position: relative;
+}
+
+:root{
+  --hsl-b6: var(--base-hue),10%,10%;

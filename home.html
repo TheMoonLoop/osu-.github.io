@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" media="all" href="home\osu-home.css" data-turbolinks-track="reload">
+    <link rel="icon" sizes="32x32" href="assets\images\favicon-32x32.png">
+    <link rel="mask-icon" href="assets\images\safari-pinned-tab.svg" color="#e2609a">
+    <title>bienvenido | osu!</title>
+</head>
+
+<body class="
+        osu-layout
+        osu-layout--body
+        t-section
+        action-index
+        osu-layout--body-landing">
+    
+    <style>
+        :root {
+            --base-hue: 255;
+            --base-hue-deg: 255deg;
+        }
+    </style>
+
+    <nav class="osu-layout__row">    
+        <div class="landing-nav hidden-xs">
+            <div class="landing-nav__section">
+                <a href="home.html" class="landing-nav__link landing-nav__link--bold">Inicio</a>
+                <a href="information.html" class="landing-nav__link ">información</a>
+                <a href="gamemodes.html" class="landing-nav__link ">modos de juego</a>
+                <a href="try.html" class="landing-nav__link ">prueba el juego</a>
+                <a href="contact.html" class="landing-nav__link ">contacto</a>
+                <a href="thx.html" class="landing-nav__link ">creditos y agradecimientos</a>
+                <a href="registrarse.html" class="landing-nav__link ">registrate</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="osu-page">
+        <div class="landing-hero">
+            <div class="landing-hero__bg-container">
+                <div class="landing-hero__bg-inner-container js-scale" data-scale="ws" style="height: 562.5px; width: 1000px;"> 
+                <video class="landing-hero__bg js-autoplay" autoplay="" loop="" muted="" playsinline="" src="home\landing.mp4"></video>
+            </div>
+        </div>
+        <div class="landing-hero__info">
+            <strong>15.210.892</strong> usuarios registrados,
+            <strong>42.911</strong> actualmente en línea en <strong>1.509</strong> partidas
+        </div>
+        <div class="landing-hero__resume">
+            <h1 class="landing-hero__resume-main">osu! es un juego con 4 modos de juego que <br>combinan música, destreza y agilidad, donde <br>los 3 seran clave para poder jugar; es de tipo <br>competitivo ya que maneja tops mundiales y <br>nacionales. Es totalmente gratuito, y ademas <br>cuenta con un multijugador donde podras <br>competir con otros jugadores</h1>
+        </div>
+        <div class="landing-hero__messages">
+            <div class="landing-hero__slogan">
+                <h1 class="landing-hero__slogan-main">el mejor juego de ritmo gratis</h1>
+                <h2 class="landing-hero__slogan-sub">el ritmo está solo a un clic de distancia</h2>
+            </div>
+
+            <div class="landing-hero__message-extra-container">
+                <div class="landing-hero__message-extra landing-hero__message-extra--bottom">
+                    <a href="home\osu!install.exe" class="btn-osu-big btn-osu-big--download-landing">
+                        <span class="btn-osu-big__content">
+                            <span class="btn-osu-big__left">
+                                <span class="btn-osu-big__text-top">
+                                    Descargar ahora
+                                </span>
+                            </span>
+                            <span class="btn-osu-big__icon">
+                                <img src="assets\images\download-solid.svg"></img>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

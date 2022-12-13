@@ -1,0 +1,43 @@
+<!-- Desarrollado por Ruben A. Morales Hdez. -->
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>registrarse | osu!</title>
+    <link rel="stylesheet" type="text/css" href="registrarse\estilos.css">
+    <link rel="icon" href="favicon-32x32.png" type="image/png">
+</head>
+<body>     
+    <video class="video" autoplay="" loop="" id="video_background" muted="" playsinline="" src="registrarse\landing.mp4"></video>
+    <img src="registrarse\osu-logo.90f2a9c7.png"></img>
+    <div class="slogan">
+        <h1 class="landing-hero__slogan-main">El mejor juego de ritmo gratis</h1>
+        <h2 class="landing-hero__slogan-sub">El ritmo está solo a un clic de distancia</h2>
+    </div>
+    <br><br><br>
+    <div class="form">
+        <form action="registrarse\guardar.php" method="post">
+            <br><label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Nombre" required=""><br><br>
+            
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" placeholder="correo@dominio.com" required=""><br><br>
+
+            <label for="edad">Edad</label>
+            <input type="date" name="edad" required=""><br><br>
+
+            <label for="usuario">Nombre de usuario</label>
+            <input type="text" name="usuario" placeholder="Nick" required=""><br><br>
+
+            <label for="contrasenha">Contraseña</label><br>
+            <input type="password" name="contrasenha" placeholder="Contraseña" required=""><br><br>
+            
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" placeholder="Mensaje" required=""></textarea><br><br>
+
+            <input type="submit" value="Enviar"> 
+            <input type="reset"  value="Limpiar"><br>
+            <br><input type="button" value="Volver" onClick="history.go(-1);">
+    </div>
+</body>
